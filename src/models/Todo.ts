@@ -1,10 +1,10 @@
 class Todo {
-    name: string
-    id: string
+    name: string;
+    date: string
 
-    constructor(name: string) {
-        this.name = name;
-        this.id = new Date().toISOString()
+    constructor(todoName: string) {
+        this.name = todoName;
+        this.date = new Date().toISOString()
     }
 }
 

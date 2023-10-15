@@ -1,0 +1,12 @@
+.todoitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.todoitem button {
+    padding: 0;
+    height: 20px;
+}
